@@ -19,10 +19,10 @@ maxSpan([1, 4, 2, 1, 4, 1, 4]) → 6
 maxSpan([1, 4, 2, 1, 4, 4, 4]) → 6
 ```
 
-## (strSplosion.py)[strSplosion.py]
+## [strSplosion.py](strSplosion.py)
 Given a non-empty string like "Code" return a string like **"CCoCodCod"**.
 
-## (subSeq.py)[subSeq.py]
+## [subSeq.py](subSeq.py)
 Given a string S and a set of words D, find the longest word in D that is a subsequence of S.
 
 Word W is a subsequence of S if some number of characters, possibly zero, can be deleted from S to form W, without reordering the remaining characters.
