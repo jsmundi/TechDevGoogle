@@ -20,7 +20,7 @@ maxSpan([1, 4, 2, 1, 4, 4, 4]) → 6
 ```
 
 ## (strSplosion.py)[strSplosion.py]
-Given a non-empty string like "Code" return a string like "CCoCodCod".
+Given a non-empty string like "Code" return a string like **"CCoCodCod"**.
 
 ## (subSeq.py)[subSeq.py]
 Given a string S and a set of words D, find the longest word in D that is a subsequence of S.
@@ -31,13 +31,14 @@ Note: D can appear in any format (list, hash table, prefix tree, etc.
 
 For example, given the input of S = "abppplee" and D = {"able", "ale", "apple", "bale", "kangaroo"} the correct output would be "apple"
 
-The words "able" and "ale" are both subsequences of S, but they are shorter than "apple".
-The word "bale" is not a subsequence of S because even though S has all the right letters, they are not in the right order.
-The word "kangaroo" is the longest word in D, but it isn't a subsequence of S.
+-The words "able" and "ale" are both subsequences of S, but they are shorter than "apple".
+-The word "bale" is not a subsequence of S because even though S has all the right letters, they are not in the right order.
+-The word "kangaroo" is the longest word in D, but it isn't a subsequence of S.
 
 ### Directory Tree
+```
 .
 ├── maxSpan.py
 ├── stringSplosion.py
 └── subSeq.py
-
+```
